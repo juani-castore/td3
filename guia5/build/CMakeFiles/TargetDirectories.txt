@@ -1,0 +1,5 @@
+/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/build/CMakeFiles/main.dir
+/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/build/CMakeFiles/package.dir
+/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/build/CMakeFiles/package_source.dir
+/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/build/CMakeFiles/edit_cache.dir
+/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/build/CMakeFiles/rebuild_cache.dir

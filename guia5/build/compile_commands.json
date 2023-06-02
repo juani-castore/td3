@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/main.dir/main.cpp.o -c \"/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/main.cpp\"",
+  "file": "/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/main.cpp"
+},
+{
+  "directory": "/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/main.dir/guia5.cpp.o -c \"/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/guia5.cpp\"",
+  "file": "/home/juani/Documents/Documents/juani/td3/estructuras de datos/guia5/guia5.cpp"
+}
+]

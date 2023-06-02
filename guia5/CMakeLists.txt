@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.14)
-project(punto2d)
+project(guia5)
 
 add_executable(
   main
   main.cpp
-  Punto2D.cpp
+  guia5.cpp
 )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

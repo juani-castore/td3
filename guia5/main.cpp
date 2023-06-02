@@ -1,25 +1,33 @@
 //Compilar con el comando: g++ main.cpp Complejo.cpp -o main
 
 #include <iostream>
-#include "Punto2D.h"
+#include "guia5.h"
 
 using namespace std;
 
 int main(){
 
-    cout << "-- c --" << endl;
-    Punto2D c = Punto2D(1.7, 8.3);
-    cout << "Coordenada x: " << c.x() << endl;
-    cout << "Coordenada y: " << c.y() << endl;
-    cout << "Espejando y..." << endl;
-    c.espejar_y();
-    cout << "Coordenada x: " << c.x() << endl;
-    cout << "Coordenada y: " << c.y() << endl;
-
-    cout << "-- c2 --" << endl;
-    Punto2D c2 = Punto2D::crear_polar(1, 3.14);
-    cout << "Coordenada x: " << c2.x() << endl;
-    cout << "Coordenada y: " << c2.y() << endl;
+    cout << "creando libro nuevo" << endl;
+    Libro libro("El señor de los anillos", "J.R.R. Tolkien", 1000);
+    cout << "titulo: " << libro.titulo() << endl;
+    cout << "autor: " << libro.autor() << endl;
+    cout << "paginas totales: " << libro.paginas_totales() << endl;
+    cout << "pagina actual: " << libro.pagina_actual() << endl;
+    cout << "leer 100 paginas" << endl;
+    libro.avanzar_n_paginas(100);
+    cout << "pagina actual: " << libro.pagina_actual() << endl;
+    cout << "porcentaje leido: " << libro.porcentaje_leido() << endl;
+    cout << "libro finalizado: " << libro.finalizado() << endl;
+    cout << "leer 1000 paginas" << endl;
+    libro.avanzar_n_paginas(1000);
+    cout << "pagina actual: " << libro.pagina_actual() << endl;
+    cout << "porcentaje leido: " << libro.porcentaje_leido() << endl;
+    cout << "libro finalizado: " << libro.finalizado() << endl;
+    cout << "saltar a pagina 500" << endl;
+    libro.saltar_a_pagina(500);
+    cout << "pagina actual: " << libro.pagina_actual() << endl;
+    cout << "porcentaje leido: " << libro.porcentaje_leido() << endl;
+    cout << "libro finalizado: " << libro.finalizado() << endl;
 
     return 0;
 }
